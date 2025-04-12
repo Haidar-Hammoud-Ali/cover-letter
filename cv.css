@@ -46,12 +46,12 @@ h2 {
 }
 
 .section:hover {
-    background-color: rgb(175, 247, 172);
+    background: linear-gradient(135deg, #c2f1b0, #f7baba, #eff782);
     transform: scale(1.02);
 }
 
 .section {
-    background: rgb(255, 208, 208);
+    background: linear-gradient(135deg, #eff782, #f7baba, #c2f1b0);
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 10px;
