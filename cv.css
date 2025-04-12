@@ -47,6 +47,10 @@ h2 {
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 15px rgba(201, 189, 19, 0.1);
     text-align: left;
+}
+
+.section h2 {
+    text-align: center;
 }
