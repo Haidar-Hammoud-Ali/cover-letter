@@ -30,13 +30,12 @@ body {
 h1 {
     margin-top: 20px;
     margin-bottom: 10px;
-    color: #cabd04;
-    text-shadow: #000000;
+    color: #000000;
+    text-shadow: #ff0000;
 }
 
 h1:hover {
     opacity: 0.8;
-    box-shadow: #2237ad;
 }
 
 h2 {
@@ -46,6 +45,10 @@ h2 {
     margin-bottom: 15px;
 }
 
+.section:hover {
+    background-color: rgb(175, 247, 172);
+    transform: scale(1.02);
+}
 
 .section {
     background: rgb(255, 208, 208);
@@ -54,6 +57,8 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 3px 15px rgba(201, 189, 19, 0.1);
     text-align: left;
+    transition: transform 0.3s ease;
+
 }
 
 .section h2 {
