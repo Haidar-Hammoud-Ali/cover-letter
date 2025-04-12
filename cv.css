@@ -6,11 +6,23 @@
     height: 200px;
     object-fit: cover;
     transition: transform 0.3s;
+    
 }
+
+.Round { transform: scale(1.05);}
 
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eff782, #66a6ff);
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
 }
